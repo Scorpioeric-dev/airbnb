@@ -1,10 +1,11 @@
-import React from 'react'
-import '../Style/Home.css'
+import React from "react";
+import "../Style/Home.css";
+import { Banner } from "./Banner";
 
 export const Home = () => {
-    return (
-        <div className='home'>
-            
-        </div>
-    )
-}
+  return (
+    <div className="home">
+      <Banner />
+    </div>
+  );
+};

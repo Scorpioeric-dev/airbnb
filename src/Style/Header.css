@@ -16,11 +16,8 @@
     /* width: 250px; */
   }
 
-.header_icon {
-  object-fit: contain;
-  height: 100px;
-  margin-left: 20px;
-}
+
+
 .header_center {
   display: flex;
   align-items: center;
@@ -32,6 +29,7 @@
   border: 1px solid lightgray;
   border-radius: 999px;
 }
+
 .header_right {
   display: flex;
   align-items: center;
@@ -40,3 +38,8 @@
   margin-right: 80px;
 }
 
+.header_icon {
+    object-fit: contain;
+    height: 100px;
+    margin-left: 20px;
+  }
